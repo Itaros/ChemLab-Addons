@@ -1,0 +1,8 @@
+All items are named using tree-like structure separating nodes by point:
+ore.crushed.bif
+ingot.pig.lowgrade.bif
+
+First group is visual type: ore, grains, slag, ingot and so on.
+Second one is visual modifier: crushed, rich, pig, nonmagnetic or none at all.
+Third one is material: bif(Banded Iron Formation), hematite etc
+Third one might have a quality prefix like .lowgrade.
