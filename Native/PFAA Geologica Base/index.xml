@@ -16,6 +16,12 @@
         <nodeName>ingot.pig.iron</nodeName>
     </genericItem>
     <genericItem>
+        <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
+    </genericItem>
+    <genericItem>
+        <nodeName>ingot.pig.redshort.iron</nodeName>
+    </genericItem>
+    <genericItem>
         <nodeName>grains.magnetite</nodeName>
     </genericItem>
     <genericItem>
@@ -69,7 +75,7 @@
             <count>1</count>
         </in>
         <out>
-            <nodeName>ingot.pig.iron</nodeName>
+            <nodeName>ingot.pig.redshort.iron</nodeName>
             <count>1</count>
         </out>
         <power>1000</power>
@@ -88,7 +94,7 @@
             <count>1</count>
         </in>
         <out>
-            <nodeName>ingot.pig.lowgrade.iron</nodeName>
+            <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
             <count>1</count>
         </out>
         <power>1000</power>
@@ -107,7 +113,7 @@
             <count>1</count>
         </in>
         <out>
-            <nodeName>ingot.pig.lowgrade.iron</nodeName>
+            <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
             <count>1</count>
         </out>
         <power>1000</power>
@@ -138,7 +144,7 @@
             <count>1</count>
         </in>
         <out>
-            <nodeName>ingot.pig.lowgrade.iron</nodeName>
+            <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
             <count>1</count>
         </out>
         <power>1000</power>
@@ -157,7 +163,7 @@
             <count>1</count>
         </in>
         <out>
-            <nodeName>ingot.pig.lowgrade.iron</nodeName>
+            <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
             <count>1</count>
         </out>
         <power>1000</power>
@@ -190,6 +196,235 @@
         <out>
             <nodeName>dust.stone</nodeName>
             <count>5</count>
+        </out>
+        <power>1000</power>
+        <time>100</time>
+    </rigidProcess>
+    <genericItem>
+        <nodeName>ingot.lowgrade.iron</nodeName>
+    </genericItem>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
+        <in>
+            <nodeName>ingot.pig.lowgrade.iron</nodeName>
+            <count>1</count>
+        </in>
+        <out>
+            <nodeName>ingot.lowgrade.iron</nodeName>
+            <count>1</count>
+        </out>
+        <power>2500</power>
+        <time>200</time>
+    </rigidProcess>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
+        <in>
+            <nodeName>ingot.pig.iron</nodeName>
+            <count>1</count>
+        </in>
+        <out>
+            <nodeName>minecraft:iron_ingot</nodeName>
+            <count>1</count>
+        </out>
+        <power>2500</power>
+        <time>200</time>
+    </rigidProcess>
+    <genericHOEFluid>
+        <nodeName>fluid.air.gas</nodeName>
+    </genericHOEFluid>
+    <genericHOEFluid>
+        <nodeName>fluid.air.compressed</nodeName>
+    </genericHOEFluid>
+    <genericHOEFluid>
+        <nodeName>fluid.air.liquid</nodeName>
+    </genericHOEFluid>
+    <genericHOEFluid>
+        <nodeName>fluid.oxygen</nodeName>
+    </genericHOEFluid>
+    <genericHOEFluid>
+        <nodeName>fluid.nitrogen</nodeName>
+    </genericHOEFluid>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
+        <in>
+            <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
+            <count>1</count>
+        </in>
+        <in>
+            <nodeName>dust.magnesium</nodeName>
+            <count>5</count>
+        </in>
+        <out>
+            <nodeName>ingot.pig.lowgrade.iron</nodeName>
+            <count>1</count>
+        </out>
+        <power>2500</power>
+        <time>200</time>
+    </rigidProcess>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
+        <in>
+            <nodeName>ingot.pig.redshort.iron</nodeName>
+            <count>1</count>
+        </in>
+        <in>
+            <nodeName>dust.magnesium</nodeName>
+            <count>5</count>
+        </in>
+        <out>
+            <nodeName>ingot.pig.iron</nodeName>
+            <count>1</count>
+        </out>
+        <power>2500</power>
+        <time>200</time>
+    </rigidProcess>
+    <genericItem>
+        <nodeName>dust.magnesium</nodeName>
+    </genericItem>
+    <genericItem>
+        <nodeName>ore.crushed.magnesite</nodeName>
+    </genericItem>
+    <genericItem>
+        <nodeName>chunk.lowgrade.ccm</nodeName>
+    </genericItem>
+    <genericItem>
+        <nodeName>chunk.crushed.lowgrade.ccm</nodeName>
+    </genericItem>
+    <genericItem>
+        <nodeName>dust.lowgrade.ccm</nodeName>
+    </genericItem>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.CrusherIO</IOPackage>
+        <in>
+            <nodeName>PFAAGeologica:mediumOreRock</nodeName>
+            <count>1</count>
+			<meta>5</meta>
+        </in>
+        <out>
+            <nodeName>ore.crushed.magnesite</nodeName>
+            <count>1</count>
+        </out>
+        <power>2500</power>
+        <time>200</time>
+    </rigidProcess>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.HiTFurnaceIO</IOPackage>
+        <in>
+            <nodeName>ore.crushed.magnesite</nodeName>
+            <count>1</count>
+        </in>
+        <in>
+            <nodeName>minecraft:coal</nodeName>
+            <count>1</count>
+            <meta>1</meta>
+        </in>
+        <out>
+            <nodeName>chunk.lowgrade.ccm</nodeName>
+            <count>1</count>
+        </out>
+        <power>2500</power>
+        <time>200</time>
+    </rigidProcess>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.CrusherIO</IOPackage>
+        <in>
+            <nodeName>chunk.lowgrade.ccm</nodeName>
+            <count>1</count>
+        </in>
+        <out>
+            <nodeName>chunk.crushed.lowgrade.ccm</nodeName>
+            <count>1</count>
+        </out>
+        <power>500</power>
+        <time>25</time>
+    </rigidProcess>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.CentrifugalExtractorIO</IOPackage>
+        <in>
+            <nodeName>chunk.crushed.lowgrade.ccm</nodeName>
+            <count>1</count>
+        </in>
+        <out>
+            <nodeName>dust.lowgrade.ccm</nodeName>
+            <count>16</count>
+        </out>
+        <out>
+            <nodeName>dust.stone</nodeName>
+            <count>3</count>
+        </out>
+        <power>500</power>
+        <time>25</time>
+    </rigidProcess>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.HiTFurnaceIO</IOPackage>
+        <in>
+            <nodeName>dust.lowgrade.ccm</nodeName>
+            <count>2</count>
+        </in>
+        <in>
+            <nodeName>minecraft:coal</nodeName>
+            <count>1</count>
+            <meta>1</meta>
+        </in>
+        <out>
+            <nodeName>dust.magnesium</nodeName>
+            <count>2</count>
+        </out>
+        <power>5500</power>
+        <time>600</time>
+    </rigidProcess>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
+        <in>
+            <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
+            <count>1</count>
+        </in>
+        <in>
+            <nodeName>dust.magnesium</nodeName>
+            <count>1</count>
+            <meta>1</meta>
+        </in>
+        <out>
+            <nodeName>ingot.pig.lowgrade.iron</nodeName>
+            <count>1</count>
+        </out>
+        <power>1000</power>
+        <time>300</time>
+    </rigidProcess>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
+        <in>
+            <nodeName>ingot.pig.redshort.iron</nodeName>
+            <count>1</count>
+        </in>
+        <in>
+            <nodeName>dust.magnesium</nodeName>
+            <count>1</count>
+            <meta>1</meta>
+        </in>
+        <out>
+            <nodeName>ingot.pig.iron</nodeName>
+            <count>1</count>
+        </out>
+        <power>1000</power>
+        <time>300</time>
+    </rigidProcess>
+    <genericItem>
+        <nodeName>ingot.wrought.oxygenated.iron</nodeName>
+    </genericItem>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
+        <in>
+            <nodeName>ingot.pig.lowgrade.iron</nodeName>
+            <count>1</count>
+        </in>
+        <in>
+            <nodeName>fluid.oxygen</nodeName>
+            <count>250</count>
+        </in>
+        <out>
+            <nodeName>ingot.wrought.oxygenated.iron</nodeName>
+            <count>1</count>
         </out>
         <power>1000</power>
         <time>100</time>
