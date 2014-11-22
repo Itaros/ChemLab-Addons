@@ -229,21 +229,6 @@
         <power>2500</power>
         <time>200</time>
     </rigidProcess>
-    <genericHOEFluid>
-        <nodeName>fluid.air.gas</nodeName>
-    </genericHOEFluid>
-    <genericHOEFluid>
-        <nodeName>fluid.air.compressed</nodeName>
-    </genericHOEFluid>
-    <genericHOEFluid>
-        <nodeName>fluid.air.liquid</nodeName>
-    </genericHOEFluid>
-    <genericHOEFluid>
-        <nodeName>fluid.oxygen</nodeName>
-    </genericHOEFluid>
-    <genericHOEFluid>
-        <nodeName>fluid.nitrogen</nodeName>
-    </genericHOEFluid>
     <rigidProcess>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
         <in>
