@@ -1,21 +1,31 @@
 #PFAA-BASE THINGS
 item.pfaabase.ore.crushed.bif.name=Crushed BIF Ore
-item.pfaabase.grains.bif.name=BIF Grains
+item.pfaabase.dust.bif.name=BIF Dust
 item.pfaabase.slag.rich.bif.name=Rich Slag(BIF)
 item.pfaabase.ingot.pig.lowgrade.iron.name=Low-grade Pig Iron
 item.pfaabase.ingot.pig.iron.name=Pig Iron
 item.pfaabase.ingot.pig.lowgrade.redshort.iron.name=Low-grade Redshort Pig Iron
 item.pfaabase.ingot.pig.redshort.iron.name=Redshort Pig Iron
-item.pfaabase.grains.magnetite.name=Magnetite Grains
-item.pfaabase.grains.hematite.name=Hematite Grains
-item.pfaabase.grains.nonmagnetic.ferric.name=Non-magnetic Ferric Grains
+item.pfaabase.dust.magnetite.name=Magnetite Dust
+item.pfaabase.dust.hematite.name=Hematite Dust
+item.pfaabase.dust.nonmagnetic.ferric.name=Non-magnetic Ferric Dust
 item.pfaabase.dust.stone.name=Stone Dust
 item.pfaabase.ore.crushed.magnetite.name=Crushed Magnetite Ore
-item.pfaabase.grains.lowgrade.magnetite.name=Low-grade Magnetite Grains
+item.pfaabase.dust.lowgrade.magnetite.name=Low-grade Magnetite Dust
 item.pfaabase.ingot.magnetite.name=Magnetite Ingot
-item.pfaabase.ingot.lowgrade.iron.name=Low-grade Iron Ingot
 item.pfaabase.dust.magnesium.name=Magnesium Dust
 item.pfaabase.ore.crushed.magnesite.name=Crushed Magnesite Ore
 item.pfaabase.chunk.lowgrade.ccm.name=Chunk of Low-grade CCM
 item.pfaabase.chunk.crushed.lowgrade.ccm.name=Crushed Low-grade CCM
 item.pfaabase.dust.lowgrade.ccm.name=Low-grade CCM Dust
+
+item.pfaabase.dust.chalcopyrite.name=Chalcopyrite Dust
+item.pfaabase.ingot.slagous.copper.name=Fibrous Copper Ingot
+item.pfaabase.dust.silica.name=Silica Dust
+item.pfaabase.ore.crushed.chalcopyrite.name=Crushed Chalcopyrite Ore
+item.pfaabase.ingot.chalcocite.name=Chalcocite Ingot
+item.pfaabase.ingot.copper.name=Copper Ingot
+item.pfaabase.dust.slagous.copper.name=Fibrous Copper Dust
+item.pfaabase.dust.copper.name=Copper Dust
+item.pfaabase.slag.ferrosilitic.name=Ferrosilitic Slag
+item.pfaabase.ingot.wrought.oxygenated.iron.name=Wrought Oxideous Iron
