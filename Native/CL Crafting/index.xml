@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contractCollector>
+    <genericItem>
+        <nodeName>part.pcb.control</nodeName>
+    </genericItem>
+    <gridCrafting>
+        <recipe>000|BBB|WWW</recipe>
+        <result>
+            <nodeName>part.pcb.control</nodeName>
+            <count>1</count>
+        </result>
+        <component>
+            <literal>B</literal>
+            <nodeName>minecraft:stone_button</nodeName>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>W</literal>
+            <nodeName>minecraft:wooden_slab</nodeName>
+            <count>1</count>
+        </component>
+    </gridCrafting>
+</contractCollector>
