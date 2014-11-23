@@ -29,3 +29,15 @@ item.pfaabase.dust.slagous.copper.name=Fibrous Copper Dust
 item.pfaabase.dust.copper.name=Copper Dust
 item.pfaabase.slag.ferrosilitic.name=Ferrosilitic Slag
 item.pfaabase.ingot.wrought.oxygenated.iron.name=Wrought Oxideous Iron
+
+#CL-CRAFTING THINGS
+item.clcrafting.part.pcb.pad.name=PCB Pad
+item.clcrafting.part.pcb.control.name=Control PCB
+item.clcrafting.part.screw.name=Screw
+item.clcrafting.part.frame.name=Machine Frame
+item.clcrafting.part.gear.wood.name=Wooden Gear
+item.clcrafting.part.gear.iron.name=Iron Gear
+item.clcrafting.mold.clay.gear.name=Clay Mold(Gear)
+item.clcrafting.part.assembly.magnetic.name=Active Magnetic Assembly
+item.clcrafting.part.magnet.weak.name=Weak Magnet
+item.clcrafting.part.grindinggear.name=Grinding Dear

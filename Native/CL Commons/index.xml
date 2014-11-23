@@ -26,10 +26,10 @@
     </rigidProcess>
     <rigidProcess>
         <IOPackage>ru.itaros.chemlab.hoe.io.FluidCompressorIO</IOPackage>
-        <out>
+        <in>
             <nodeName>fluid.air.gas</nodeName>
             <count>1000</count>
-        </out>
+        </in>
         <out>
             <nodeName>fluid.air.compressed</nodeName>
             <count>10</count>
@@ -39,10 +39,10 @@
     </rigidProcess>
     <rigidProcess>
         <IOPackage>ru.itaros.chemlab.hoe.io.TurboexpanderIO</IOPackage>
-        <out>
+        <in>
             <nodeName>fluid.air.compressed</nodeName>
             <count>100</count>
-        </out>
+        </in>
         <out>
             <nodeName>fluid.air.liquid</nodeName>
             <count>1000</count>
@@ -52,10 +52,10 @@
     </rigidProcess>
     <rigidProcess>
         <IOPackage>ru.itaros.chemlab.hoe.io.EvaporationUnitIO</IOPackage>
-        <out>
+        <in>
             <nodeName>fluid.air.liquid</nodeName>
             <count>250</count>
-        </out>
+        </in>
         <out>
             <nodeName>fluid.nitrogen</nodeName>
             <count>190</count>
