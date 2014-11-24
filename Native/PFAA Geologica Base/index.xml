@@ -11,15 +11,19 @@
     </genericItem>
     <genericItem>
         <nodeName>ingot.pig.lowgrade.iron</nodeName>
+        <oreDict>listIronLowQuality</oreDict>
     </genericItem>
     <genericItem>
         <nodeName>ingot.pig.iron</nodeName>
+        <oreDict>listIronLowQuality</oreDict>
     </genericItem>
     <genericItem>
         <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
+        <oreDict>listIronLowQuality</oreDict>
     </genericItem>
     <genericItem>
         <nodeName>ingot.pig.redshort.iron</nodeName>
+        <oreDict>listIronLowQuality</oreDict>
     </genericItem>
     <genericItem>
         <nodeName>dust.magnetite</nodeName>
@@ -380,6 +384,7 @@
     </rigidProcess>
     <genericItem>
         <nodeName>ingot.wrought.oxygenated.iron</nodeName>
+        <oreDict>listIronLowQuality</oreDict>
     </genericItem>
     <rigidProcess>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>

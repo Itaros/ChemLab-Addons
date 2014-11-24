@@ -54,7 +54,7 @@
         </result>
         <component>
             <literal>I</literal>
-            <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
+            <oreDict>listIronLowQuality</oreDict>
             <count>1</count>
         </component>
     </gridCrafting>
@@ -66,7 +66,7 @@
         </result>
         <component>
             <literal>I</literal>
-            <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
+            <oreDict>listIronLowQuality</oreDict>
             <count>1</count>
         </component>
     </gridCrafting>
@@ -139,7 +139,7 @@
         </result>
         <component>
             <literal>I</literal>
-            <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
+            <oreDict>listIronLowQuality</oreDict>
             <count>1</count>
         </component>
         <component>
@@ -289,7 +289,7 @@
         </result>
         <component>
             <literal>I</literal>
-            <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
+            <oreDict>listIronLowQuality</oreDict>
             <count>1</count>
         </component>
     </gridCrafting>
