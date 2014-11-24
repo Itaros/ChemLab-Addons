@@ -35,6 +35,7 @@
         <nodeName>dust.nonmagnetic.ferric</nodeName>
     </genericItem>
     <rigidProcess>
+        <nodeName>crush.ore.bif</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.CrusherIO</IOPackage>
         <in>
             <nodeName>PFAAGeologica:strongOreRock</nodeName>
@@ -49,6 +50,7 @@
         <time>100</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>centrifuge.bif</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.CentrifugalExtractorIO</IOPackage>
         <in>
             <nodeName>ore.crushed.bif</nodeName>
@@ -67,6 +69,7 @@
         <time>500</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>melt.dust.bif</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiTFurnaceIO</IOPackage>
         <in>
             <nodeName>dust.bif</nodeName>
@@ -86,6 +89,7 @@
         <time>100</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>melt.crushed.bif</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiTFurnaceIO</IOPackage>
         <in>
             <nodeName>ore.crushed.bif</nodeName>
@@ -105,6 +109,7 @@
         <time>100</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>melt.ore.bif</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiTFurnaceIO</IOPackage>
         <in>
             <nodeName>PFAAGeologica:strongOreRock</nodeName>
@@ -136,6 +141,7 @@
         <nodeName>ingot.magnetite</nodeName>
     </genericItem>
     <rigidProcess>
+        <nodeName>melt.dust.lowgrade.magnetite</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiTFurnaceIO</IOPackage>
         <in>
             <nodeName>dust.lowgrade.magnetite</nodeName>
@@ -155,6 +161,7 @@
         <time>100</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>melt.ore.magnetite</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiTFurnaceIO</IOPackage>
         <in>
             <nodeName>PFAAGeologica:strongOreRock</nodeName>
@@ -174,6 +181,7 @@
         <time>100</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>crush.ore.magnetite</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.CrusherIO</IOPackage>
         <in>
             <nodeName>PFAAGeologica:strongOreRock</nodeName>
@@ -188,6 +196,7 @@
         <time>100</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>centrifuge.magnetite</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.CentrifugalExtractorIO</IOPackage>
         <in>
             <nodeName>ore.crushed.magnetite</nodeName>
@@ -205,6 +214,7 @@
         <time>100</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>hirm.pig.iron</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
         <in>
             <nodeName>ingot.pig.iron</nodeName>
@@ -218,6 +228,7 @@
         <time>200</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>hirm.lowgrade.redshort.iron</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
         <in>
             <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
@@ -235,6 +246,7 @@
         <time>200</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>hirm.pig.redshort.iron</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
         <in>
             <nodeName>ingot.pig.redshort.iron</nodeName>
@@ -267,11 +279,12 @@
         <nodeName>dust.lowgrade.ccm</nodeName>
     </genericItem>
     <rigidProcess>
+        <nodeName>crush.ore.magnesite</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.CrusherIO</IOPackage>
         <in>
             <nodeName>PFAAGeologica:mediumOreRock</nodeName>
             <count>1</count>
-			<meta>5</meta>
+            <meta>5</meta>
         </in>
         <out>
             <nodeName>ore.crushed.magnesite</nodeName>
@@ -281,6 +294,7 @@
         <time>200</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>melt.crushed.magnesite</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiTFurnaceIO</IOPackage>
         <in>
             <nodeName>ore.crushed.magnesite</nodeName>
@@ -299,6 +313,7 @@
         <time>200</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>crush.lowgrade.ccm</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.CrusherIO</IOPackage>
         <in>
             <nodeName>chunk.lowgrade.ccm</nodeName>
@@ -312,6 +327,7 @@
         <time>25</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>centrifuge.crushed.lowgrade.ccm</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.CentrifugalExtractorIO</IOPackage>
         <in>
             <nodeName>chunk.crushed.lowgrade.ccm</nodeName>
@@ -329,6 +345,7 @@
         <time>25</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>melt.lowgrade.ccm</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiTFurnaceIO</IOPackage>
         <in>
             <nodeName>dust.lowgrade.ccm</nodeName>
@@ -347,6 +364,7 @@
         <time>600</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>melt.pig.lowgrade.redshort.iron</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
         <in>
             <nodeName>ingot.pig.lowgrade.redshort.iron</nodeName>
@@ -365,6 +383,7 @@
         <time>300</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>hirm.pig.redshort.iron</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
         <in>
             <nodeName>ingot.pig.redshort.iron</nodeName>
@@ -387,6 +406,7 @@
         <oreDict>listIronLowQuality</oreDict>
     </genericItem>
     <rigidProcess>
+        <nodeName>hirm.pig.lowgrade.iron</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
         <in>
             <nodeName>ingot.pig.lowgrade.iron</nodeName>
@@ -431,6 +451,7 @@
         <nodeName>ingot.copper</nodeName>
     </genericItem>
     <rigidProcess>
+        <nodeName>crush.ore.chalcopyrite</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.CrusherIO</IOPackage>
         <in>
             <nodeName>PFAAGeologica:mediumOreRock</nodeName>
@@ -445,6 +466,7 @@
         <time>100</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>gravmag.crushed.chalcopyrite</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.GravMagIO</IOPackage>
         <in>
             <nodeName>ore.crushed.chalcopyrite</nodeName>
@@ -466,6 +488,7 @@
         <time>500</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>hirm.dust.chalcopyrite</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
         <in>
             <nodeName>dust.chalcopyrite</nodeName>
@@ -487,6 +510,7 @@
         <time>500</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>hirm.pure.chalcopyrite</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiResistantMixerIO</IOPackage>
         <in>
             <nodeName>ingot.chalcocite.pure</nodeName>
@@ -504,6 +528,7 @@
         <time>500</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>crush.slagous.copper</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.CrusherIO</IOPackage>
         <in>
             <nodeName>ingot.slagous.copper</nodeName>
@@ -517,6 +542,7 @@
         <time>100</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>centrifuge.slagous.copper</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.CentrifugalExtractorIO</IOPackage>
         <in>
             <nodeName>dust.slagous.copper</nodeName>
@@ -534,6 +560,7 @@
         <time>100</time>
     </rigidProcess>
     <rigidProcess>
+        <nodeName>melt.dust.copper</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.HiTFurnaceIO</IOPackage>
         <in>
             <nodeName>dust.copper</nodeName>

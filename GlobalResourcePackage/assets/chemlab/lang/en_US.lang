@@ -30,6 +30,34 @@ item.pfaabase.dust.copper.name=Copper Dust
 item.pfaabase.slag.ferrosilitic.name=Ferrosilitic Slag
 item.pfaabase.ingot.wrought.oxygenated.iron.name=Wrought Oxideous Iron
 
+recipe.crush.ore.bif.name=Crush BIF Ore
+recipe.centrifuge.bif.name=Centrifugal Enrichment(BIF)
+recipe.melt.dust.bif.name=BIF CR
+recipe.melt.crushed.bif.name=BIF CR
+recipe.melt.ore.bif.name=Direct BIF CR
+recipe.melt.dust.lowgrade.magnetite.name=Magnetite CR
+recipe.melt.ore.magnetite.name=Direct Magnetite CR
+recipe.crush.ore.magnetite.name=Crush Magnetite Ore
+recipe.centrifuge.magnetite.name=Centrifugal Enrichment(Magnetite)
+recipe.hirm.pig.iron.name=[???REQVERIF]
+recipe.hirm.lowgrade.redshort.iron.name=Direct Red-shortness Removal
+recipe.hirm.pig.redshort.iron.name=Direct Red-shortness Removal
+recipe.crush.ore.magnesite.name=Crush Magnesite Ore
+recipe.melt.crushed.magnesite.name=Calcinate Magnesite
+recipe.crush.lowgrade.ccm.name=Crush Low-Grade CCM
+recipe.centrifuge.crushed.lowgrade.ccm.name=Centrifugal Enrichment(LGCCM)
+recipe.melt.lowgrade.ccm.name=CCM CR
+recipe.melt.pig.lowgrade.redshort.iron.name=Direct Red-shortness Removal
+recipe.hirm.pig.redshort.iron.name=Direct Red-shortness Removal
+recipe.hirm.pig.lowgrade.iron.name=Decarburization
+recipe.crush.ore.chalcopyrite.name=Crush Chalcopyrite Ore
+recipe.gravmag.crushed.chalcopyrite.name=Gravimagnetic Enrichment(Chalcopyrite)
+recipe.hirm.dust.chalcopyrite.name=Copper Reduction
+recipe.hirm.pure.chalcopyrite.name=Final Blasting
+recipe.crush.slagous.copper.name=Crush Slagous Copper
+recipe.centrifuge.slagous.copper.name=Centrifugal Enrichment(Copper)
+recipe.melt.dust.copper.name=Melt Copper
+
 #CL-CRAFTING THINGS
 item.clcrafting.part.pcb.pad.name=PCB Pad
 item.clcrafting.part.pcb.control.name=Control PCB
