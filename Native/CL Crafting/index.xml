@@ -126,15 +126,14 @@
         </component>
         <component>
             <literal>S</literal>
-            <nodeName>PFAAGeologica:weakClay</nodeName>
+            <oreDict>oreKaolinite</oreDict>
             <count>1</count>
-            <meta>3</meta>
         </component>
     </gridCrafting>
     <gridCrafting>
         <recipe>000|0I0|0M0</recipe>
         <result>
-            <nodeName>mold.clay.gear</nodeName>
+            <nodeName>part.gear.iron</nodeName>
             <count>1</count>
         </result>
         <component>
