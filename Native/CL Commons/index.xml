@@ -3,14 +3,17 @@
     <HOEChemicalCompound>
         <stoichiometric>C</stoichiometric>
         <classicalName>Carbon</classicalName>
+        <formationEnthalpy>0</formationEnthalpy>
     </HOEChemicalCompound>
     <HOEChemicalCompound>
         <stoichiometric>O2</stoichiometric>
         <classicalName>Oxygen</classicalName>
+        <formationEnthalpy>0</formationEnthalpy>
     </HOEChemicalCompound>
     <HOEChemicalCompound>
         <stoichiometric>CO2</stoichiometric>
         <classicalName>Carbon Dioxide</classicalName>
+        <formationEnthalpy>-393500</formationEnthalpy>
     </HOEChemicalCompound>
     <HOEChemicalReaction>
         <equation>C + O2 -> CO2</equation>
