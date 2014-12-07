@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contractCollector>
+    <HOEChemicalCompound>
+        <stoichiometric>C</stoichiometric>
+        <classicalName>Carbon</classicalName>
+    </HOEChemicalCompound>
+    <HOEChemicalCompound>
+        <stoichiometric>O2</stoichiometric>
+        <classicalName>Oxygen</classicalName>
+    </HOEChemicalCompound>
+    <HOEChemicalCompound>
+        <stoichiometric>CO2</stoichiometric>
+        <classicalName>Carbon Dioxide</classicalName>
+    </HOEChemicalCompound>
+    <HOEChemicalReaction>
+        <equation>C + O2 -> CO2</equation>
+    </HOEChemicalReaction>
+    <genericItem>
+        <nodeName>clump.iron.bloom</nodeName>
+    </genericItem>
     <genericHOEFluid>
         <nodeName>fluid.air.gas</nodeName>
     </genericHOEFluid>
