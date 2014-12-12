@@ -18,6 +18,13 @@
     <HOEChemicalReaction>
         <equation>C + O2 -> CO2</equation>
     </HOEChemicalReaction>
+    <chemicalItem>
+        <nodeName>charcoal.pellet</nodeName>
+        <composition>
+            <compound>C</compound>
+            <moles>1</moles>
+        </composition>
+    </chemicalItem>
     <genericItem>
         <nodeName>clump.iron.bloom</nodeName>
     </genericItem>
