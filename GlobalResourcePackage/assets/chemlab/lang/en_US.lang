@@ -58,6 +58,19 @@ recipe.crush.slagous.copper.name=Crush Slagous Copper
 recipe.centrifuge.slagous.copper.name=Centrifugal Enrichment(Copper)
 recipe.melt.dust.copper.name=Melt Copper
 
+#CL-COMMON
+item.clcommon.charcoal.pellet.name=Charcoal Pellet
+item.hvlc.fluid.air.compressed.name=Compressed Air HVLC
+item.hvlc.fluid.oxygen.name=Oxygen HVLC
+item.hvlc.fluid.nitrogen.name=Nitrogen HVLC
+item.hvlc.fluid.air.liquid.name=Liquid Air HVLC
+item.hvlc.fluid.air.gas.name=Air HVLC
+item.hvlc.empty.name=Empty HVLC
+item.ciowrench.name=CIO Wrench
+item.ipai.fluids.name=Fluids PA
+item.ipai.items.name=Items PA
+item.ipai.component.panel.name=Cover PA
+
 #CL-CRAFTING THINGS
 item.clcrafting.part.pcb.pad.name=PCB Pad
 item.clcrafting.part.pcb.control.name=Control PCB
@@ -69,3 +82,29 @@ item.clcrafting.mold.clay.gear.name=Clay Mold(Gear)
 item.clcrafting.part.assembly.magnetic.name=Active Magnetic Assembly
 item.clcrafting.part.magnet.weak.name=Weak Magnet
 item.clcrafting.part.grindinggear.name=Grinding Dear
+item.clcrafting.part.chamber.name=Pressurised Chamber
+item.clcrafting.part.drive.name=EMF Locomotive
+
+#VANILLA BASE IRON
+item.vanillabaseiron.clump.iron.wrought.name=Wrought Iron Bloom
+item.vanillabaseiron.ore.dust.iron.name=Commercial Iron Dust
+item.vanillabaseiron.ingot.iron.cast.lowgrade.name=Low-grade Cast Iron Ingot
+item.vanillabaseiron.ore.dust.stone.name=Stone Dust
+item.vanillabaseiron.ore.dust.iron.redshort=Redshort Cast Iron Dust
+item.vanillabaseiron.ingot.iron.wrought.name=Wrought Iron Ingot
+item.vanillabaseiron.ore.crushed.iron.name=Crushed Iron Ore
+item.vanillabaseiron.ore.dust.iron.lowgrade.name=Low-grade Iron Ore Dust
+item.vanillabaseiron.ore.dust.ferric.nonmagnetic.name=Non-magnetic Iron Oxides Dust
+
+recipe.crush.ore.iron.name=Crush Ore
+recipe.heat.crushed.ore.iron.name=Melt Crushed Ore
+recipe.crush.clump.iron.wrought.name=Crush Iron Bloom
+recipe.centrifuge.crushed.ore.iron.name=Centrifuge Crushed Ore
+recipe.magsep.dust.iron.lowgrade.name=Enrich Dust
+recipe.heat.dust.iron.lowgrade.name=Form Ingot
+recipe.heat.dust.iron.redshort.name=Form Ingot
+recipe.heat.dust.iron.name=Form Ingot
+
+#DEBUG PLACEHOLDER
+item.debugplaceholder.crushed.quicklime.name=Crushed Quicklime
+item.debugplaceholder.ingot.magnetite.name=Magnetite Ingot
