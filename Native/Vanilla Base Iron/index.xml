@@ -9,6 +9,10 @@
         <oreDict>dustStone</oreDict>
     </genericItem>
     <genericItem>
+        <nodeName>slag.ore.iron</nodeName>
+        <oreDict>slagOreIron</oreDict>
+    </genericItem>
+    <genericItem>
         <nodeName>ore.dust.iron.lowgrade</nodeName>
     </genericItem>
     <genericItem>
@@ -77,6 +81,10 @@
         </in>
         <out>
             <nodeName>ingot.iron.wrought</nodeName>
+            <count>1</count>
+        </out>
+        <out>
+            <oreDict>slagOreIron</oreDict>
             <count>1</count>
         </out>
         <power>1000</power>
@@ -167,6 +175,20 @@
             <count>1</count>
         </out>
         <power>2000</power>
+        <time>100</time>
+    </rigidProcess>
+    <rigidProcess>
+        <nodeName>heat.dust.iron.redshort.nolime</nodeName>
+        <IOPackage>ru.itaros.chemlab.hoe.io.HiTFurnaceIO</IOPackage>
+        <in>
+            <nodeName>ore.dust.iron.redshort</nodeName>
+            <count>1</count>
+        </in>
+        <out>
+            <nodeName>ingot.iron.cast.lowgrade</nodeName>
+            <count>1</count>
+        </out>
+        <power>1000</power>
         <time>100</time>
     </rigidProcess>
 </contractCollector>

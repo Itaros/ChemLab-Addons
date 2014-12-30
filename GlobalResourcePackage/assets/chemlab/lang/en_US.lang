@@ -95,13 +95,14 @@ item.vanillabaseiron.ingot.iron.wrought.name=Wrought Iron Ingot
 item.vanillabaseiron.ore.crushed.iron.name=Crushed Iron Ore
 item.vanillabaseiron.ore.dust.iron.lowgrade.name=Low-grade Iron Ore Dust
 item.vanillabaseiron.ore.dust.ferric.nonmagnetic.name=Non-magnetic Iron Oxides Dust
+item.vanillabaseiron.slag.ore.iron.name=Iron Ore Slag
 
 recipe.crush.ore.iron.name=Crush Ore
 recipe.heat.crushed.ore.iron.name=Melt Crushed Ore
 recipe.crush.clump.iron.wrought.name=Crush Iron Bloom
 recipe.centrifuge.crushed.ore.iron.name=Centrifuge Crushed Ore
 recipe.magsep.dust.iron.lowgrade.name=Enrich Dust
-recipe.heat.dust.iron.lowgrade.name=Form Ingot
+recipe.heat.dust.iron.lowgrade.name=Reform Bloom
 recipe.heat.dust.iron.redshort.name=Form Ingot
 recipe.heat.dust.iron.name=Form Ingot
 
