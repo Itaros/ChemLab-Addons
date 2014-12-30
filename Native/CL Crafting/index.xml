@@ -247,7 +247,7 @@
         </result>
         <component>
             <literal>M</literal>
-            <nodeName>chemlab:ingot.magnetite</nodeName>
+            <oreDict>ingotMagnetite</oreDict>
             <count>1</count>
         </component>
     </gridCrafting>

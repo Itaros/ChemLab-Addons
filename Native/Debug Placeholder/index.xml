@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contractCollector>
+    <genericItem>
+        <nodeName>ingot.magnetite</nodeName>
+        <oreDict>ingotMagnetite</oreDict>
+    </genericItem>
+    <genericItem>
+        <nodeName>crushed.quicklime</nodeName>
+        <oreDict>crushedQuicklime</oreDict>
+    </genericItem>
+</contractCollector>
