@@ -362,4 +362,41 @@
             <count>1</count>
         </component>
     </gridCrafting>
+    <gridCrafting>
+        <comment>T0 furnace heater. Used in powergen too</comment>
+        <recipe>CCC|CFC|CCC</recipe>
+        <result>
+            <nodeName>chemlab:tile.machine.heatingfurnace</nodeName>
+            <count>1</count>
+        </result>
+        <component>
+            <literal>C</literal>
+            <nodeName>minecraft:brick_block</nodeName>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>F</literal>
+            <nodeName>minecraft:furnace</nodeName>
+            <count>1</count>
+        </component>
+    </gridCrafting>
+    <gridCrafting>
+        <comment>T0 bloomery</comment>
+        <recipe>CSC|C0C|CCC</recipe>
+        <result>
+            <nodeName>chemlab:tile.machine.bloomery</nodeName>
+            <count>1</count>
+        </result>
+        <component>
+            <literal>C</literal>
+            <nodeName>minecraft:brick_block</nodeName>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>S</literal>
+            <nodeName>minecraft:stone_slab</nodeName>
+            <meta>0</meta>
+            <count>1</count>
+        </component>
+    </gridCrafting>
 </contractCollector>
