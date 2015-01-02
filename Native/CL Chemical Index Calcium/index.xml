@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contractCollector>
+    <HOEChemicalCompound>
+        <stoichiometric>CaCO3</stoichiometric>
+        <classicalName>Calcium Carbonate</classicalName>
+        <functionalName>CaCO3</functionalName>
+        <formationEnthalpy>−1207000</formationEnthalpy>
+    </HOEChemicalCompound>
+    <HOEChemicalCompound>
+        <stoichiometric>CaH2C2O6</stoichiometric>
+        <classicalName>Calcium Bicarbonate</classicalName>
+        <formationEnthalpy>-1234800</formationEnthalpy>
+        <functionalName>Ca(HCO3)2</functionalName>
+    </HOEChemicalCompound>
+    <HOEChemicalCompound>
+        <stoichiometric>CaO2H2</stoichiometric>
+        <classicalName>Calcium Hydroxide</classicalName>
+        <formationEnthalpy>−987000</formationEnthalpy>
+        <functionalName>Ca(OH)2</functionalName>
+    </HOEChemicalCompound>
+</contractCollector>

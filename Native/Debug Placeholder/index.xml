@@ -4,8 +4,4 @@
         <nodeName>ingot.magnetite</nodeName>
         <oreDict>ingotMagnetite</oreDict>
     </genericItem>
-    <genericItem>
-        <nodeName>crushed.quicklime</nodeName>
-        <oreDict>crushedQuicklime</oreDict>
-    </genericItem>
 </contractCollector>

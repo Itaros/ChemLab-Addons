@@ -106,6 +106,15 @@ recipe.heat.dust.iron.lowgrade.name=Reform Bloom
 recipe.heat.dust.iron.redshort.name=Form Ingot
 recipe.heat.dust.iron.name=Form Ingot
 
+#MULTIPURPOSE BASE LIME
+item.multipurposebaselime.ore.crushed.limestone.name=Crushed Limestone
+item.multipurposebaselime.dust.calcbicarbon.name=Calcium Bicarbonate Dust
+item.multipurposebaselime.dust.calchydrox.name=Slaked Lime Dust
+
+recipe.heat.ore.crushed.limestone.name=Crush Stone
+recipe.cat.dust.calcbicarbon.name=Slake Lime
+recipe.crush.ore.limestone.name=Regenerate
+
 #DEBUG PLACEHOLDER
 item.debugplaceholder.crushed.quicklime.name=Crushed Quicklime
 item.debugplaceholder.ingot.magnetite.name=Magnetite Ingot
