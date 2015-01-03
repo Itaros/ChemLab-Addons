@@ -6,16 +6,19 @@
     <HOEChemicalCompound>
         <stoichiometric>C</stoichiometric>
         <classicalName>Carbon</classicalName>
+        <functionalName>C</functionalName>
         <formationEnthalpy>0</formationEnthalpy>
     </HOEChemicalCompound>
     <HOEChemicalCompound>
         <stoichiometric>O2</stoichiometric>
         <classicalName>Oxygen</classicalName>
+        <functionalName>O2</functionalName>
         <formationEnthalpy>0</formationEnthalpy>
     </HOEChemicalCompound>
     <HOEChemicalCompound>
         <stoichiometric>CO2</stoichiometric>
         <classicalName>Carbon Dioxide</classicalName>
+        <functionalName>CO2</functionalName>
         <formationEnthalpy>-393500</formationEnthalpy>
     </HOEChemicalCompound>
     <HOEChemicalReaction>

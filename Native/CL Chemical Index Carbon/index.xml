@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contractCollector>
+    <HOEChemicalCompound>
+        <stoichiometric>C</stoichiometric>
+        <classicalName>Carbon</classicalName>
+        <functionalName>C</functionalName>
+        <formationEnthalpy>0</formationEnthalpy>
+    </HOEChemicalCompound>
+    <HOEChemicalCompound>
+        <stoichiometric>CO2</stoichiometric>
+        <classicalName>Carbon Dioxide</classicalName>
+        <functionalName>CO2</functionalName>
+        <formationEnthalpy>-393500</formationEnthalpy>
+    </HOEChemicalCompound>
+</contractCollector>
