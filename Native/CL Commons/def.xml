@@ -2,4 +2,5 @@
 <userspacePackageDefinition>
 <name>cl_common</name>
 <author>Itaros</author>
+<requires>cl_chemical_index_carbon</requires>
 </userspacePackageDefinition>

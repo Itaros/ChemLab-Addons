@@ -2,4 +2,5 @@
 <userspacePackageDefinition>
 <name>multipurpose_base_lime</name>
 <author>Itaros</author>
+<requires>cl_chemical_index_calcium</requires>
 </userspacePackageDefinition>
