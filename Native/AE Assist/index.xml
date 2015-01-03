@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contractCollector>
+    <gridCrafting>
+        <comment>Low-Iron(Wrought) Cutting Knife Recipe</comment>
+        <recipe>00S|IS0|CC0</recipe>
+        <result>
+            <nodeName>appliedenergistics2:item.ToolCertusQuartzCuttingKnife</nodeName>
+            <count>1</count>
+        </result>
+        <component>
+            <literal>S</literal>
+            <oreDict>stickWood</oreDict>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>C</literal>
+            <oreDict>crystalCertusQuartz</oreDict>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>I</literal>
+            <oreDict>ingotIronLow</oreDict>
+            <count>1</count>
+        </component>
+    </gridCrafting>
+    <gridCrafting>
+        <comment>EMF Locomotive and different iron can be used instead of Fluix Crystal</comment>
+        <recipe>IGI|GLG|IGI</recipe>
+        <result>
+            <nodeName>appliedenergistics2:tile.BlockEnergyAcceptor</nodeName>
+            <count>1</count>
+        </result>
+        <component>
+            <literal>L</literal>
+            <nodeName>chemlab:part.drive</nodeName>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>G</literal>
+            <nodeName>appliedenergistics2:tile.BlockQuartzGlass</nodeName>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>I</literal>
+            <oreDict>ingotIronLow</oreDict>
+            <count>1</count>
+        </component>
+    </gridCrafting>
+    <gridCrafting>
+        <comment>EMF Locomotive and different iron can be used instead of Fluix Crystal</comment>
+        <recipe>IGI|GLG|IGI</recipe>
+        <result>
+            <nodeName>appliedenergistics2:tile.BlockEnergyAcceptor</nodeName>
+            <count>1</count>
+        </result>
+        <component>
+            <literal>L</literal>
+            <nodeName>chemlab:part.drive</nodeName>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>G</literal>
+            <nodeName>appliedenergistics2:tile.BlockQuartzGlass</nodeName>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>I</literal>
+            <oreDict>ingotIronMed</oreDict>
+            <count>1</count>
+        </component>
+    </gridCrafting>
+</contractCollector>
