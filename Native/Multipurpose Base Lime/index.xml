@@ -19,7 +19,7 @@
     <chemicalItem>
         <nodeName>dust.calchydrox</nodeName>
         <composition>
-            <compound>Ca(OH)2</compound>
+            <compound>CaO2H2</compound>
             <moles>1</moles>
         </composition>
     </chemicalItem>
