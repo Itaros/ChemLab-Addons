@@ -106,6 +106,9 @@ recipe.heat.dust.iron.lowgrade.name=Reform Bloom
 recipe.heat.dust.iron.redshort.name=Form Ingot
 recipe.heat.dust.iron.name=Form Ingot
 
+#VANILLA BASE GOLD
+item.vanillabasegold.plate.gold.name=Gold Plates
+
 #MULTIPURPOSE BASE LIME
 item.multipurposebaselime.ore.crushed.limestone.name=Crushed Limestone
 item.multipurposebaselime.dust.calcbicarbon.name=Calcium Bicarbonate Dust

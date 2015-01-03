@@ -400,4 +400,22 @@
             <count>1</count>
         </component>
     </gridCrafting>
+    <gridCrafting>
+        <comment>Crafting hammer is used in making soft metal plates(like gold)</comment>
+        <recipe>SSS|0T0|0T0</recipe>
+        <result>
+            <nodeName>chemlab:item.crafting.hammer</nodeName>
+            <count>1</count>
+        </result>
+        <component>
+            <literal>S</literal>
+            <oreDict>stone</oreDict>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>T</literal>
+            <oreDict>stickWood</oreDict>
+            <count>1</count>
+        </component>
+    </gridCrafting>
 </contractCollector>

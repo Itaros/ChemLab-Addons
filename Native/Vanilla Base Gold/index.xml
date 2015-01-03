@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contractCollector>
+    <genericItem>
+        <nodeName>plate.gold</nodeName>
+        <oreDict>plateGold</oreDict>
+    </genericItem>
+    <gridCrafting>
+        <recipe>0I0|0P0|000</recipe>
+        <result>
+            <nodeName>plate.gold</nodeName>
+            <count>1</count>
+        </result>
+        <component>
+            <literal>I</literal>
+            <nodeName>chemlab:item.crafting.hammer</nodeName>
+            <meta>32767</meta>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>P</literal>
+            <oreDict>ingotGold</oreDict>
+            <count>1</count>
+        </component>
+    </gridCrafting>
+</contractCollector>
