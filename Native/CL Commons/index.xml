@@ -49,6 +49,12 @@
     <genericHOEFluid>
         <nodeName>fluid.nitrogen</nodeName>
     </genericHOEFluid>
+    <genericHOEFluid>
+        <nodeName>fluid.gas.carbondioxide</nodeName>
+    </genericHOEFluid>
+    <genericHOEFluid>
+        <nodeName>fluid.liquid.carbondioxide</nodeName>
+    </genericHOEFluid>
     <rigidProcess>
         <IOPackage>ru.itaros.chemlab.hoe.io.AirCollectorIO</IOPackage>
         <out>
@@ -67,6 +73,19 @@
         <out>
             <nodeName>fluid.air.compressed</nodeName>
             <count>10</count>
+        </out>
+        <power>1000</power>
+        <time>50</time>
+    </rigidProcess>
+    <rigidProcess>
+        <IOPackage>ru.itaros.chemlab.hoe.io.FluidCompressorIO</IOPackage>
+        <in>
+            <nodeName>fluid.gas.carbondioxide</nodeName>
+            <count>1000</count>
+        </in>
+        <out>
+            <nodeName>fluid.liquid.carbondioxide</nodeName>
+            <count>100</count>
         </out>
         <power>1000</power>
         <time>50</time>
@@ -97,6 +116,10 @@
         <out>
             <nodeName>fluid.oxygen</nodeName>
             <count>50</count>
+        </out>
+        <out>
+            <nodeName>fluid.gas.carbondioxide</nodeName>
+            <count>10</count>
         </out>
         <power>50</power>
         <time>1000</time>
