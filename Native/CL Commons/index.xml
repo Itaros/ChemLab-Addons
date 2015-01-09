@@ -55,6 +55,9 @@
     <genericHOEFluid>
         <nodeName>fluid.liquid.carbondioxide</nodeName>
     </genericHOEFluid>
+    <genericHOEFluid>
+        <nodeName>fluid.sulfurdioxide</nodeName>
+    </genericHOEFluid>
     <rigidProcess>
         <IOPackage>ru.itaros.chemlab.hoe.io.AirCollectorIO</IOPackage>
         <out>

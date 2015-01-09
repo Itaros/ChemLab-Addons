@@ -118,6 +118,46 @@ recipe.heat.ore.crushed.limestone.name=Crush Stone
 recipe.cat.dust.calcbicarbon.name=Slake Lime
 recipe.crush.ore.limestone.name=Regenerate
 
+#MULTIPURPOSE BASE COPPER
+item.multipurposebasecopper.ore.crushed.copper.coarse.name=Crushed Copper Ore(Coarse)
+item.multipurposebasecopper.ore.crushed.copper.fine.name=Crushed Copper Ore(Fine)
+item.multipurposebasecopper.ore.crushed.copper.finer.name=Crushed Copper Ore(Finer)
+item.multipurposebasecopper.froth.copper.rougher.dust.name=Regrinded RF Copper Ore
+item.multipurposebasecopper.froth.copper.final.dust.name=Regrinded FF Copper Ore
+item.multipurposebasecopper.ingot.roasted.copper.ore.name=Enriched Copper Ore Ingot
+item.multipurposebasecopper.ingot.copper.pig.name=Copper Pig Ingot
+item.multipurposebasecopper.ingot.copper.name=Copper Ingot
+item.multipurposebasecopper.slag.rich.sulfidic.iron.name=Iron-rich Slag
+
+item.hvlc.fluid.froth.copper.rougher.name=Rougher Copper Ore Foam
+item.hvlc.fluid.froth.copper.final.name=Final Copper Ore Foam
+item.hvlc.fluid.froth.copper.tailings.name=Copper Ore Tailings Slurry
+item.hvlc.fluid.mixture.frothering.name=Frothering Mixture
+
+recipe.crush.ore.copper.name=Crush Ore
+recipe.crush.ore.crushed.copper.coarse.name=Fine Granules
+recipe.crush.ore.crushed.copper.fine.name=Fine Granules
+recipe.mix.fluid.mixture.frothering.name=Mix
+recipe.froth.ore.crushed.copper.coarse.name=Floculate Coarse Particles
+recipe.froth.ore.crushed.copper.fine.name=Floculate Fine Particles
+recipe.froth.ore.crushed.copper.finer.name=Floculate Finer Particles
+recipe.froth.froth.copper.rougher.dust.name=Floculate(Cleaning)
+recipe.froth.froth.copper.tailings.name=Floculate(Scavenging)
+recipe.crush.froth.copper.rougher.name=Regrind
+recipe.crush.froth.copper.final.name=Regrind
+recipe.heat.froth.copper.final.dust.name=Roast Dust
+recipe.hirm.ingot.roasted.copper.ore.name=Remove Slag
+recipe.heat.ingot.copper.pig.name=Reform
+
+#VANILLA BASE OILS
+item.vanillabaseoils.wheat.germ.name=Wheat Germs
+item.vanillabaseoils.grinded.wheat.germ.name=Grinded Wheat Germs
+
+item.hvlc.fluid.oil.wheat.germ.name=Wheat Germ Oil
+
+recipe.grind.wheat.germ.name=Grind Wheat Germs
+recipe.cat.grinded.wheat.germ.name=Extract Oil
+
 #DEBUG PLACEHOLDER
 item.debugplaceholder.crushed.quicklime.name=Crushed Quicklime
 item.debugplaceholder.ingot.magnetite.name=Magnetite Ingot
