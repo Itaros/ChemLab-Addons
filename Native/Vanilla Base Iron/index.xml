@@ -40,6 +40,24 @@
         <oreDict>ingotIronWrought</oreDict>
         <oreDict>ingotIronLow</oreDict>
     </genericItem>
+    <gridCrafting>
+        <recipe>0I0|0P0|000</recipe>
+        <result>
+            <nodeName>ingot.iron.wrought</nodeName>
+            <count>1</count>
+        </result>
+        <component>
+            <literal>I</literal>
+            <nodeName>chemlab:item.crafting.hammer</nodeName>
+            <meta>32767</meta>
+            <count>1</count>
+        </component>
+        <component>
+            <literal>P</literal>
+            <nodeName>clump.iron.wrought</nodeName>
+            <count>1</count>
+        </component>
+    </gridCrafting>
     <rigidProcess>
         <nodeName>crush.ore.iron</nodeName>
         <IOPackage>ru.itaros.chemlab.hoe.io.CrusherIO</IOPackage>

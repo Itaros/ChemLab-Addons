@@ -58,6 +58,19 @@
     <genericHOEFluid>
         <nodeName>fluid.sulfurdioxide</nodeName>
     </genericHOEFluid>
+    <gridCrafting>
+        <recipe>C00|000|000</recipe>
+        <result>
+            <nodeName>charcoal.pellet</nodeName>
+            <count>4</count>
+        </result>
+        <component>
+            <literal>C</literal>
+            <oreDict>minecraft:coal</oreDict>
+            <count>1</count>
+            <meta>1</meta>
+        </component>
+    </gridCrafting>
     <rigidProcess>
         <IOPackage>ru.itaros.chemlab.hoe.io.AirCollectorIO</IOPackage>
         <out>
