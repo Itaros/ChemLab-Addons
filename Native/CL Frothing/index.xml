@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contractCollector>
+    <genericHOEFluid>
+        <nodeName>fluid.mixture.frothering</nodeName>
+    </genericHOEFluid>
+    <rigidProcess>
+        <comment>Mixes Frothing Mixture</comment>
+        <nodeName>mix.fluid.mixture.frothering</nodeName>
+        <IOPackage>ru.itaros.chemlab.hoe.io.MixerIO</IOPackage>
+        <in>
+            <nodeName>fluid.oil.wheat.germ</nodeName>
+            <count>100</count>
+        </in>
+        <in>
+            <nodeName>fluid.water</nodeName>
+            <count>600</count>
+        </in>
+        <in>
+            <oreDict>quicklime</oreDict>
+            <count>5</count>
+        </in>
+        <out>
+            <nodeName>fluid.mixture.frothering</nodeName>
+            <count>1000</count>
+        </out>
+        <power>100</power>
+        <time>25</time>
+    </rigidProcess>
+</contractCollector>
