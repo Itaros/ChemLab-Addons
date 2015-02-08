@@ -67,9 +67,6 @@ item.hvlc.fluid.air.liquid.name=Liquid Air HVLC
 item.hvlc.fluid.air.gas.name=Air HVLC
 item.hvlc.empty.name=Empty HVLC
 item.ciowrench.name=CIO Wrench
-item.ipai.fluids.name=Fluids PA
-item.ipai.items.name=Items PA
-item.ipai.component.panel.name=Cover PA
 
 #CL-CRAFTING THINGS
 item.clcrafting.part.pcb.pad.name=PCB Pad
