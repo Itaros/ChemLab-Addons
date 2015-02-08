@@ -4,4 +4,8 @@
         <nodeName>ingot.magnetite</nodeName>
         <oreDict>ingotMagnetite</oreDict>
     </genericItem>
+    <genericItem>
+        <nodeName>ore.tin</nodeName>
+        <oreDict>oreTin</oreDict>
+    </genericItem>
 </contractCollector>
