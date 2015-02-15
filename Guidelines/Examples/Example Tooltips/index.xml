@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contractCollector>
+    <genericItem>
+        <nodeName>example.tooltip.string</nodeName>
+        <tooltip>
+            <type>StringTooltip</type>
+            <data>As n0rw0lf requested!</data>
+        </tooltip>
+    </genericItem>
+    <genericItem>
+        <nodeName>example.tooltip.langtoken</nodeName>
+        <tooltip>
+            <type>LanguageTokenTooltip</type>
+            <data>tooltip.n0rw0lf.example</data>
+        </tooltip>
+    </genericItem>
+</contractCollector>
