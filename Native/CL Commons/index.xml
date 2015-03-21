@@ -3,7 +3,7 @@
     <genericItem>
         <nodeName>dust.stone</nodeName>
         <oreDict>dustStone</oreDict>
-    <genericItem>
+    </genericItem>
     <genericHOEFluid>
         <nodeName>fluid.water</nodeName>
     </genericHOEFluid>

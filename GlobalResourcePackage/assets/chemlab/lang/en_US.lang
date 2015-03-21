@@ -146,6 +146,19 @@ recipe.heat.froth.copper.final.dust.name=Roast Dust
 recipe.hirm.ingot.roasted.copper.ore.name=Remove Slag
 recipe.heat.ingot.copper.pig.name=Reform
 
+#MULTIPURPOSE BASE TIN
+item.multipurposebasetin.ore.crushed.tin.name=Crushed Tin Ore
+item.multipurposebasetin.ore.crushed.tin.rich.name=Enriched Crushed Tin Ore
+item.multipurposebasetin.froth.tin.dry.name=Dry Tin Froth
+item.multipurposebasetin.dust.tin.rough.name=Rough Tin Dust
+item.multipurposebasetin.dust.tin.final.name=Final Tin Dust
+item.multipurposebasetin.clump.tin.name.name=Tin Clump
+item.multipurposebasetin.slag.tin.primary.name=Primary Tin Slag
+item.multipurposebasetin.slag.tin.secondary.name=Secondary Tin Slag
+item.multipurposebasetin.ingot.tin.name=Tin Ingot
+item.multipurposebasetin.hardhead.tin.name=Tin Hardheads
+item.multipurposebasetin.slag.waste.name=Waste Tin Slag
+
 #VANILLA BASE OILS
 item.vanillabaseoils.wheat.germ.name=Wheat Germs
 item.vanillabaseoils.grinded.wheat.germ.name=Grinded Wheat Germs
