@@ -1,0 +1,88 @@
+import java.util.zip.*
+import static groovy.io.FileType.FILES
+
+project.ext.set("buildFolder", new File('artifacts'))
+project.ext.set("tempFolder",new File(project.buildFolder,'temp'))
+
+task compileNative(type: CLAddonsPackagerTask){
+	source = 'Native'
+}
+task compileCommunity(type: CLAddonsPackagerTask){
+	source = 'Community'
+}
+
+task setTargetDir{
+	buildFolder.mkdirs()
+	tempFolder.mkdirs()
+}
+
+compileNative.dependsOn setTargetDir
+compileCommunity.dependsOn setTargetDir
+
+class CLAddonsPackagerTask extends DefaultTask{
+	String source = ''
+	
+	@TaskAction
+	def collect(){
+		File inspectionDir = new File(source)
+		inspectionDir.eachDir(){dir->
+			if(checkIfCLAddon(dir)){
+				println("Check[V]: "+dir.toString())
+				packMe(dir)
+			}else{
+				println("Check[X]: "+dir.toString())
+			}
+		}
+	}
+	
+	def packMe(File dir){
+		byte[] buffer = new byte[1024]
+		String packname = getCLPackName(dir)
+		def zipfile = new File(project.tempFolder,packname+".zip")
+		ZipOutputStream zipOutput = new ZipOutputStream(new FileOutputStream(zipfile));
+		//Writing data
+		dir.eachFileRecurse(FILES){file->
+			String rels = dir.getPath()
+			String tars = file.getPath()
+			tars = tars.substring(rels.length()+1,tars.length())
+			println(tars)
+			ZipEntry entry = new ZipEntry(tars)
+			FileInputStream fis = new FileInputStream(file)
+			zipOutput.putNextEntry(entry)
+			int length
+			while ((length = fis.read(buffer)) > 0) {
+				zipOutput.write(buffer, 0, length);
+			}
+			zipOutput.closeEntry()
+			fis.close()
+			
+		}
+		//Flush
+		zipOutput.close()
+		println('...done!')
+	}
+	
+	String getCLPackName(File dir){
+		File defFile = new File(dir,'def.xml')
+		String result = dir.getName()+'.brokendef'
+		defFile.eachLine{line->
+			int pointer = line.indexOf('<name>')
+			if(pointer==-1){
+				return result
+			}else{
+				//Hackery
+				String pure = line.substring(pointer+'<name>'.length(),line.length()-'</name>'.length())
+				println('pure:'+pure)
+				result = pure
+			}
+		}
+		return result
+	}
+	
+	def checkIfCLAddon(File dir){
+		def isIndexHere = new File(dir,'index.xml').exists()
+		def isDefHere = new File(dir,'def.xml').exists()
+		def isAssetsHere = new File(dir,'assets').exists()
+		return isIndexHere & isDefHere & isAssetsHere
+	}
+}
