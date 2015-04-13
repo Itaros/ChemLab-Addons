@@ -6,7 +6,7 @@ Those are official and approved user-created custom CL addons along with additio
 Licensing:
 - Original art is my property(Semion 'Itaros' Nadezhdin) and can be adapted and/or reused only for CL Addons.
 - Art which is derived from Minecraft assets is subject to Mojang EULA
-- CL-Addons XML files are licensed under CC BY-NC-SA 4.0
+- CL-Addons XML files are licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 - Other non-mentioned original work is property of its respective owners.
 
 Contributing:
